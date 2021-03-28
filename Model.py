@@ -1,4 +1,4 @@
-# To keep the application simple, I have gone with a simple non persistent data approach and not in
+# To keep the application simple, I have gone with a simple non persistent data approach.
 # In real life, this file would contain DB models and schemas. This is only for demo purposes.
 
 
