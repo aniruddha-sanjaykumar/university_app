@@ -7,7 +7,7 @@ Project Requirements:
 
 Setup Steps:
 
-Step1 : `git clone `
+Step1 : `git clone https://github.com/aniruddha-sanjaykumar/university_app.git`
 
 Clone the repository and cd(change directory) to the repository base folder.
 
@@ -32,10 +32,13 @@ The application runs on http://127.0.0.1:5000/ by default.
 API endpoints supported:
 
 GET /app/courses --> Get list of courses (id, name --> url params).
+
 Sample call: `GET http://127.0.0.1:5000/app/courses`
 
 POST /app/courses --> Add a new course.
+
 Sample call: `POST http://127.0.0.1:5000/app/courses`
+
 Sample request body:
 `{
         "id": "chemistry102",
@@ -44,9 +47,11 @@ Sample request body:
 }`
 
 GET /app/students --> Get list of students (id, name --> url params).
+
 Sample call: `GET http://127.0.0.1:5000/app/students` 
 
 POST /app/students --> Add a new student.
+
 Sample call: `POST http://127.0.0.1:5000/app/students`
 
 Sample request body:
@@ -59,6 +64,7 @@ Sample request body:
     }`
 
 PUT /app/students --> Enroll student to new course.
+
 Sample call: `PUT http://127.0.0.1:5000/app/students`
 
 Sample request body:
@@ -71,18 +77,23 @@ Sample request body:
     }`
     
 GET /app/exams --> Get list of exams. 
+
 Sample call: `GET http://127.0.0.1:5000/app/exams`
 
 POST /app/exams --> Add a new exam.
+
 Sample call: `POST http://127.0.0.1:5000/app/exams`
 
 GET /app/exams/<id> --> Get a particular exam using id.
+
 Sample call: `GET http://127.0.0.1:5000/app/exams/physics101-i1`
 
 GET /app/exams/<id>/results --> Get exam results.
+
 Sample call: `GET http://127.0.0.1:5000/app/exams/physics101-i1/results`
 
 POST /app/exams/<id>/results --> Post result for an exam.
+
 Sample call: `POST http://127.0.0.1:5000/app/exams/physics101-i2/results`
 
 Sample request body: 
